@@ -1,4 +1,4 @@
-public class Main12_2 {
+public class Main2 {
 	public int func_a(int[] arr){
         int count = 0;
         for(int i = 0; i < arr.length; ++i)
@@ -29,7 +29,7 @@ public class Main12_2 {
         return answer;
     }
     public static void main(String[] args) {
-    	Main12_2 sol = new Main12_2();
+    	Main2 sol = new Main2();
         int[] arr = {2, 3, 6, 9, 12, 15, 10, 20, 22, 25};
         String ret = sol.solution(arr);
 
