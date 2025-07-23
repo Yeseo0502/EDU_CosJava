@@ -18,7 +18,7 @@ public class Main1 {
         return total;
     }
     public static void main(String[] args) {
-        Main1 sol = new Main1();
+        Main1 sol = new Main1(); 
         int[] leftGloves = {2, 1, 2, 2, 4};
         int[] rightGloves = {1, 2, 2, 4, 4, 7};
         int ret = sol.solution(leftGloves, rightGloves);
