@@ -1,4 +1,4 @@
-public class Main11 {
+public class Main1 {
 	final int maxProductNumber = 10;
 	public int[] func_a(int[] gloves){
         int[] counter = new int[maxProductNumber + 1];
@@ -18,7 +18,7 @@ public class Main11 {
         return total;
     }
     public static void main(String[] args) {
-        Main11 sol = new Main11();
+        Main1 sol = new Main1();
         int[] leftGloves = {2, 1, 2, 2, 4};
         int[] rightGloves = {1, 2, 2, 4, 4, 7};
         int ret = sol.solution(leftGloves, rightGloves);
