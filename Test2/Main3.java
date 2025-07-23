@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main13_2 {
+public class Main3 {
 	public int solution(int N, int M) {
         int answer = 0;
 				for(int i=N; i<=M; i++){
@@ -10,7 +10,7 @@ public class Main13_2 {
         return answer;
     }
     public static void main(String[] args) {
-    	Main13_2 sol = new Main13_2();
+    	Main3 sol = new Main3();
         int N = 4;
         int M = 7;
         int ret = sol.solution(N, M);
