@@ -13,7 +13,7 @@ class Main5_05{
     }
     // 아래는 테스트케이스 출력을 해보기 위한 main 메소드입니다. 아래에는 잘못된 부분이 없으니, 위의 코드만 수정하세요.
     public static void main(String[] args) {
-        Main sol = new Main();
+        Main5_05 sol = new Main5_05();
         int a = 4;
         int b = 6;
         int ret = sol.solution(a, b);
